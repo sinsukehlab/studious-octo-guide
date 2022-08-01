@@ -151,7 +151,7 @@ When you're looking at a commit on GitHub, you can see a lot of information. Fro
   Review what we learned, ask for feedback, provide next steps.
 -->
 
-<details id=4 open>
+<details id=4>
 <summary><h2>Finish</h2></summary>
 
 ### Congratulations friend, you've completed this course!
