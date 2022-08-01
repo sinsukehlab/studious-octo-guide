@@ -1,25 +1,39 @@
-# GIT tics
+# GIT tips
 
 # Fetch a file from another branch to the current one
+```bash
 git checkout branch_name -- filename
+```
 
 # Unstage all changes but leave files in the working directory untouched
+```bash
 git reset HEAD
+```
 
 # Unstage a file
-git reset HEAD <filename>
+```bash
+git reset HEAD filename
+```
 
 # Go back to last commit and remove all changes from working directory
+```bash
 git reset HEAD --hard
+```
 
 # Delete untracked files
+```bash
 git clean -f
+```
 
 # Compare two branches
+```bash
 git diff develop..master
+```
 
 # Compare two commits
+```bash
 git diff <sha>..<sha>
+```
 
 ## Unstage file
 ```bash
